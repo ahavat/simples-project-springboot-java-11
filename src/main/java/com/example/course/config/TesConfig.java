@@ -11,7 +11,7 @@ import com.example.course.entities.User;
 import com.example.course.repositories.UserRepository;
 
 @Configuration
-@Profile("test")
+@Profile("aulajpa")
 public class TesConfig implements CommandLineRunner{
 	
 	@Autowired
